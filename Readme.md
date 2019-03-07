@@ -8,6 +8,7 @@ This is how you use githooks in a repo
 
 - [Setup](#setup)
 - [Usage](#usage)
+- [Other Hooks](#other-hooks)
 
 ## Setup
 
@@ -31,3 +32,21 @@ git commit -m "Committing: $(cat uuid.txt)"
 ```
 
 Then you should see the text in `.githooks/pre-commit` appear.
+
+## Other Hooks
+
+You can create other hooks. Create another file with one of these names and they will occur at a particular time. They have to be named like:
+
+```bash
+- applypatch-msg
+- commit-msg
+- fsmonitor-watchman
+- post-update
+- pre-applypatch
+- pre-commit
+- pre-push
+- pre-rebase
+- pre-receive
+- prepare-commit-msg
+- update
+```
