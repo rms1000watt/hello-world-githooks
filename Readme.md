@@ -15,6 +15,7 @@ Tell this git repo to use your local `.githooks` path:
 
 ```bash
 git config core.hooksPath .githooks
+chmod -R a+x .githooks
 ```
 
 ## Usage
