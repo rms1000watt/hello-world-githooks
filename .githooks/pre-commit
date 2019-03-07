@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "Running githook: pre-commit"
+echo "Add extra logic here as needed"
+
