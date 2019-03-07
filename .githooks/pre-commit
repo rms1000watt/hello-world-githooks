@@ -2,4 +2,5 @@
 
 echo "Running githook: pre-commit"
 echo "Add extra logic here as needed"
+echo
 
